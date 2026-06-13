@@ -1,7 +1,7 @@
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
-    app_name: str = "Hospital Hotline Assistant API"
+    app_name: str = "AI OPD Pre-Screening and Triage API"
     environment: str = "development"
     database_url: str = "postgresql://postgres:postgres@localhost:5432/hospital_hotline"
     cors_origins: list[str] = [
